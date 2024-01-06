@@ -8,8 +8,9 @@ function Form() {
           <div className="col-lg-8">
             <div className="full-width">
             <div className="sec-head mb-80">
-                <span className="sub-title mb-15 opacity-8">- Contact Us</span>
+                <span className="sub-title mb-15 opacity-8">- Contact Me</span>
                 <h3 className="text-u f-bold fz-50">Get In <span className="f-ultra-light">Touch</span>.</h3>
+                <span className="sub-title mb-15 opacity-8">Form currently not working</span>
               </div>
               <form id="contact-form" method="post" action="/contact.php">
                 <div className="messages"></div>
