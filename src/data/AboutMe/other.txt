@@ -1,0 +1,8 @@
+,
+  {
+    "id": 6,
+    "img": "/assets/imgs/works/full/6.jpg",
+    "category": "Web Design",
+    "title": "Carved Wood",
+    "link": "/project3"
+  }

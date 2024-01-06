@@ -1,0 +1,25 @@
+,
+  {
+    "id": 6,
+    "image": "/assets/imgs/works/full/6.jpg",
+    "link": "/project2",
+    "text": "Carved Wood"
+  },
+  {
+    "id": 7,
+    "image": "/assets/imgs/works/full/7.jpg",
+    "link": "/project3",
+    "text": "Viclone"
+  },
+  {
+    "id": 8,
+    "image": "/assets/imgs/works/full/8.jpg",
+    "link": "/project4",
+    "text": "Blom Air Purifier"
+  },
+  {
+    "id": 9,
+    "image": "/assets/imgs/works/full/11.jpg",
+    "link": "/project1",
+    "text": "Avocado Cutter"
+  }

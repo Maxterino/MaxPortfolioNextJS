@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "numb": "01",
+    "title": "Discuss Request",
+    "icon": "/assets/imgs/serv-icons/1.png",
+    "content": "Customer is king. That goes for my customers too. I discuss the needs and the request with the customer so I know what they expect and what they want."
+  },
+  {
+    "id": 2,
+    "numb": "02",
+    "title": "Research",
+    "icon": "/assets/imgs/serv-icons/2.png",
+    "content": "After gaining intel, I start researching into the design possibilities of the customer's request. What colours should I use? What typography fits well? I need to understand the key points of their desired design so that I can start creating my own."
+  },
+  {
+    "id": 3,
+    "numb": "03",
+    "title": "Designing",
+    "icon": "/assets/imgs/serv-icons/3.png",
+    "content": "Go time! I discussed the desired design of the customer and research into their request has been done. Now it's time to create a unique and satisfying design that the customer would love!"
+  },
+  {
+    "id": 4,
+    "numb": "04",
+    "title": "Done and Delivered",
+    "icon": "/assets/imgs/serv-icons/4.png",
+    "content": "As I deliver my finished design, I go over the design to with the customer to make sure everything is to his desires and needs. Once the customer is satisfied, I'm satisfied!"
+  }
+]

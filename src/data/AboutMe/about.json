@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Graphic Design",
+    "content": "Graphic design is my specialty, merging creativity and functionality. I excel in crafting compelling brand identities, advertising campaigns, and impactful marketing materials. Explore my portfolio for a glimpse into the intersection of artistry and strategy."
+  },
+  {
+    "id": 2,
+    "title": "Marketing",
+    "content": "With a fusion of strategy and creativity, I craft compelling brand narratives and execute impactful campaigns. Witness the power of marketing expertise in every project."
+  },
+  {
+    "id": 3,
+    "title": "Photography",
+    "content": "In the realm of photography, it's not just a skill - it's my passion and expertise. Through the lens, I capture moments with a unique blend of artistry and technical precision. Explore my gallery to witness the visual stories I've crafted, showcasing a commitment to turning moments into timeless images."
+  },
+  {
+    "id": 4,
+    "title": "Concepting & Realization",
+    "content": "I specialize in bringing ideas to life, navigating seamlessly from conceptualization to tangible realization. In my projects, you will see the harmonious interplay of creative vision and execution, showcasing a commitment to turning concepts into impactful realities."
+  }
+]
