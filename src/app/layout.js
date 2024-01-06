@@ -9,13 +9,13 @@ export const metadata = {
     title: 'MaxPortfolio',
     image: '/assets/imgs/opengraph-image.jpg',
     description: 'MaxPortfolio - Graphic Design Portfolio of Max van Maasakker',
-    images: [
+    images:
       {
         url: 'https://maxportfolio.me/assets/imgs/portfolio-imgs/MaxPictureGrayscale.png',
         width: 800,
         height: 600,
       },
-    ],
+    
   },
   title: 'MaxPortfolio',
   image: '/assets/imgs/opengraph-image.jpg',
