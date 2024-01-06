@@ -45,7 +45,7 @@ export default function ProjectOnePage() {
               <Header />
               <TopContent />
               <Works />
-              <BottomContent />
+              
             </div>
             <NextProject />
           </main>

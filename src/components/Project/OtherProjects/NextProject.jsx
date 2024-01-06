@@ -11,7 +11,7 @@ function NextProject() {
                 <h6 className="sub-title fz-18">Next Project</h6>
                 <div className="inline">
                   <div className="d-flex align-items-center">
-                    <a href="/project1" className="animsition-link fz-70 fw-700 stroke">Grand Café INTI</a>
+                    <a href="/inti" className="animsition-link fz-70 fw-700 stroke">Grand Café INTI</a>
                     <span className="ml-15">
                       <img src="/assets/imgs/svg-assets/arrow-right-top.svg" alt="" className="icon-img-70" />
                     </span>
