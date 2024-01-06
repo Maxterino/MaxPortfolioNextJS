@@ -5,18 +5,6 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
-  openGraph: {
-    title: 'MaxPortfolio',
-    image: '/assets/imgs/opengraph-image.jpg',
-    description: 'MaxPortfolio - Graphic Design Portfolio of Max van Maasakker',
-    images:
-      {
-        url: 'https://maxportfolio.me/assets/imgs/portfolio-imgs/MaxPictureGrayscale.png',
-        width: 800,
-        height: 600,
-      },
-    
-  },
   title: 'MaxPortfolio',
   image: '/assets/imgs/opengraph-image.jpg',
   description: 'MaxPortfolio - Graphic Design Portfolio of Max van Maasakker',
