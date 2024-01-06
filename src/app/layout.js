@@ -8,7 +8,14 @@ export const metadata = {
   openGraph: {
     title: 'MaxPortfolio',
     image: '/assets/imgs/opengraph-image.jpg',
-    description: 'MaxPortfolio - Graphic Design Portfolio of Max van Maasakker'
+    description: 'MaxPortfolio - Graphic Design Portfolio of Max van Maasakker',
+    images: [
+      {
+        url: '/assets/imgs/opengraph-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
   },
   title: 'MaxPortfolio',
   image: '/assets/imgs/opengraph-image.jpg',
