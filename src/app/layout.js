@@ -1,6 +1,7 @@
 //= Global Styles
 import "@/styles/globals.css";
 import {Metadata} from 'next'
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   openGraph: {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {children}
+      <Analytics />
     </html>
   )
 }
