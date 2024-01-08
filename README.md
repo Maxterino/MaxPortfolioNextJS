@@ -1,7 +1,7 @@
 <h1>MaxPortfolioNextJS</h1>
 
-<h2>This is the code that powers https://maxportfolio.me/.
-My graphic design portfolio build with Next.js showcases my work and skills as a graphic designer.</h2>
+<h3>This is the code that powers https://maxportfolio.me/.
+My graphic design portfolio build with Next.js showcases my work and skills as a graphic designer.</h3>
 
 Changelog:
 V1.0 - 06/01/2024: First complete build of maxportfolio.me. Released and made public via Vercel.
