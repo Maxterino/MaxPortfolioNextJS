@@ -11,20 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(portfolio)/portfolio/page": [
+    "/about-me/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(portfolio)/portfolio/page.js"
-    ],
-    "/(projects)/otherprojects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(projects)/otherprojects/page.js"
-    ],
-    "/(portfolio)/photography/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(portfolio)/photography/page.js"
+      "static/chunks/app/about-me/page.js"
     ],
     "/not-found": [
       "static/chunks/webpack.js",
