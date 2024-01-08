@@ -1,4 +1,4 @@
-MaxPortfolioNextJS
+<h1>MaxPortfolioNextJS</h1>
 
 This is the code that powers https://maxportfolio.me/.
 My graphic design portfolio build with Next.js showcases my work and skills as a graphic designer.
