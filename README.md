@@ -5,4 +5,4 @@ My graphic design portfolio build with Next.js showcases my work and skills as a
 
 Changelog:<br />
 V1.0   - 06/01/2024:   First complete build of maxportfolio.me. Released and made public via Vercel.<br />
-V1.01    -  08/01/2024:    favicon updated from a transparent to a gray background for better visibility on white themed browsers.<br />
+V1.01    -  08/01/2024:    Favicon updated from a transparent to a gray background for better visibility on white themed browsers.<br />
