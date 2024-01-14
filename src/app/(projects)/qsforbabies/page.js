@@ -17,7 +17,7 @@ import NextProject from "@/components/Project/Three/NextProject";
 import Footer1 from "@/components/Common/Footer1";
 
 export const metadata = {
-  title: 'Bayone - Project Three',
+  title: 'Quantum Superposition for Babies - Max van Maasakker',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",

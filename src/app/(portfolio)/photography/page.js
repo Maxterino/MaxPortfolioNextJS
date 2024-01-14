@@ -11,7 +11,7 @@ import Menu from "@/components/Common/Menu";
 import Photography from "@/components/Portfolio/Photography";
 
 export const metadata = {
-  title: 'Bayone - Portfolio Carousel Slider',
+  title: 'Photography - Max van Maasakker',
   icons: {
     icon: "/assets/imgs/favicon.ico",
     shortcut: "/assets/imgs/favicon.ico",
