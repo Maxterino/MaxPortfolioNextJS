@@ -14,7 +14,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <div className="caption">
-              <h1>Quantum Superposition <br />for Babies</h1>
+              <h1>Quantum Superposition <br />for Toddlers</h1>
             </div>
           </div>
         </div>
