@@ -11,15 +11,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about-me/page": [
+    "/(portfolio)/portfolio/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-me/page.js"
+      "static/chunks/app/(portfolio)/portfolio/page.js"
     ],
-    "/not-found": [
+    "/(portfolio)/photography/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/(portfolio)/photography/page.js"
     ]
   }
 }

@@ -97,7 +97,7 @@ function CarouselSlider() {
             {data.map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="swiper-slide">
-                  <div className="bg-img" data-background={item.background} data-overlay-dark="3">
+                  <div className="bg-img" data-background={item.background} data-overlay-dark="0">
                     <a href={item.link} className="animsition-link"></a>
                   </div>
                 </div>

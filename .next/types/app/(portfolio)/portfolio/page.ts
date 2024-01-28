@@ -1,8 +1,8 @@
-// File: C:\Users\maxvm\Desktop\MaxPortfolioNextJS\src\app\about-me\page.js
-import * as entry from '../../../../src/app/about-me/page.js'
+// File: C:\Users\maxvm\Desktop\MaxPortfolioNextJS\src\app\(portfolio)\portfolio\page.js
+import * as entry from '../../../../../src/app/(portfolio)/portfolio/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/about-me/page.js')
+type TEntry = typeof import('../../../../../src/app/(portfolio)/portfolio/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
