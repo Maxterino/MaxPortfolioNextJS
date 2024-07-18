@@ -365,7 +365,7 @@ eval(__webpack_require__.ts("module.exports = __webpack_require__(/*! ./dist/cli
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"image":"/assets/imgs/works/full/1_1.png","link":"/inti","text":"Grand Café INTI"},{"id":2,"image":"/assets/imgs/works/full/2.png","link":"/kudumu","text":"Kudumu"},{"id":3,"image":"/assets/imgs/works/full/3.png","link":"/qsfortoddlers","text":"Quantum Superposition for Toddlers"},{"id":4,"image":"/assets/imgs/works/full/.jpg","link":"/stilo0","text":"STiLO (Comming soon)"},{"id":5,"image":"/assets/imgs/portfolio-imgs/photography/1.jpg","link":"/photography","text":"Photography"},{"id":6,"image":"/assets/imgs/works/full/5.png","link":"/otherprojects","text":"Other projects"}]');
+module.exports = JSON.parse('[{"id":1,"image":"/assets/imgs/works/full/1_1.png","link":"/inti","text":"Grand Café INTI"},{"id":2,"image":"/assets/imgs/portfolio-imgs/photography/1.jpg","link":"/japanphotography","text":"Photography of Tokyo, Japan"},{"id":3,"image":"/assets/imgs/works/full/2.png","link":"/kudumu","text":"Kudumu"},{"id":4,"image":"/assets/imgs/works/full/3.png","link":"/qsfortoddlers","text":"Quantum Superposition for Toddlers"},{"id":5,"image":"/assets/imgs/works/full/.jpg","link":"/stilo0","text":"STiLO (Comming soon)"},{"id":6,"image":"/assets/imgs/portfolio-imgs/photography/1.jpg","link":"/photography","text":"Photography"},{"id":7,"image":"/assets/imgs/works/full/5.png","link":"/otherprojects","text":"Other projects"}]');
 
 /***/ })
 
