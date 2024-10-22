@@ -8,12 +8,12 @@
   {
   "id": 2,
   "image": "/assets/imgs/portfolio-imgs/PPT-logo.png",
-  "link": "/",
-  "text": "アダマス / 天絹"
+  "link": "/adamas",
+  "text": "アダマス / 天絹 (Comming soon)"
 },
   {
     "id": 3,
-    "image": "assets/imgs/portfolio-imgs/tokyo-photography.jpg",
+    "image": "/assets/imgs/portfolio-imgs/tokyo-photography.jpg",
     "link": "/japanphotography",
     "text": "Photography of Tokyo, Japan"
   },
