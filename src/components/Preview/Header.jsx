@@ -16,48 +16,48 @@ function Header() {
         <div className="shadow-right box-shadow"></div>
         <div className="slide-img-left">
           <div className="box">
-            <img src="/landing-preview/img/header/1.png" alt="" />
-            <img src="/landing-preview/img/header/2.png" alt="" />
-            <img src="/landing-preview/img/header/3.png" alt="" />
-            <img src="/landing-preview/img/header/12.png" alt="" />
-            <img src="/landing-preview/img/header/13.png" alt="" />
-            <img src="/landing-preview/img/header/8.png" alt="" />
-            <img src="/landing-preview/img/header/7.png" alt="" />
-            <img src="/landing-preview/img/header/6.png" alt="" />
+            <img src="/landing-preview/img/header/1.jpg" alt="" />
+            <img src="/landing-preview/img/header/2.jpg" alt="" />
+            <img src="/landing-preview/img/header/3.jpg" alt="" />
+            <img src="/landing-preview/img/header/12.jpg" alt="" />
+            <img src="/landing-preview/img/header/13.jpg" alt="" />
+            <img src="/landing-preview/img/header/8.jpg" alt="" />
+            <img src="/landing-preview/img/header/7.jpg" alt="" />
+            <img src="/landing-preview/img/header/6.jpg" alt="" />
           </div>
           <div className="box">
-            <img src="/landing-preview/img/header/1.png" alt="" />
-            <img src="/landing-preview/img/header/2.png" alt="" />
-            <img src="/landing-preview/img/header/3.png" alt="" />
-            <img src="/landing-preview/img/header/12.png" alt="" />
-            <img src="/landing-preview/img/header/13.png" alt="" />
-            <img src="/landing-preview/img/header/8.png" alt="" />
-            <img src="/landing-preview/img/header/7.png" alt="" />
-            <img src="/landing-preview/img/header/6.png" alt="" />
+            <img src="/landing-preview/img/header/1.jpg" alt="" />
+            <img src="/landing-preview/img/header/2.jpg" alt="" />
+            <img src="/landing-preview/img/header/3.jpg" alt="" />
+            <img src="/landing-preview/img/header/12.jpg" alt="" />
+            <img src="/landing-preview/img/header/13.jpg" alt="" />
+            <img src="/landing-preview/img/header/8.jpg" alt="" />
+            <img src="/landing-preview/img/header/7.jpg" alt="" />
+            <img src="/landing-preview/img/header/6.jpg" alt="" />
           </div>
         </div>
         <div className="slide-img-right">
           <div className="box">
-            <img src="/landing-preview/img/header/9.png" alt="" />
-            <img src="/landing-preview/img/header/10.png" alt="" />
-            <img src="/landing-preview/img/header/11.png" alt="" />
-            <img src="/landing-preview/img/header/5.png" alt="" />
-            <img src="/landing-preview/img/header/4.png" alt="" />
-            <img src="/landing-preview/img/header/14.png" alt="" />
-            <img src="/landing-preview/img/header/9.png" alt="" />
-            <img src="/landing-preview/img/header/10.png" alt="" />
-            <img src="/landing-preview/img/header/11.png" alt="" />
+            <img src="/landing-preview/img/header/9.jpg" alt="" />
+            <img src="/landing-preview/img/header/10.jpg" alt="" />
+            <img src="/landing-preview/img/header/11.jpg" alt="" />
+            <img src="/landing-preview/img/header/5.jpg" alt="" />
+            <img src="/landing-preview/img/header/4.jpg" alt="" />
+            <img src="/landing-preview/img/header/14.jpg" alt="" />
+            <img src="/landing-preview/img/header/9.jpg" alt="" />
+            <img src="/landing-preview/img/header/10.jpg" alt="" />
+            <img src="/landing-preview/img/header/11.jpg" alt="" />
           </div>
           <div className="box">
-            <img src="/landing-preview/img/header/9.png" alt="" />
-            <img src="/landing-preview/img/header/10.png" alt="" />
-            <img src="/landing-preview/img/header/11.png" alt="" />
-            <img src="/landing-preview/img/header/5.png" alt="" />
-            <img src="/landing-preview/img/header/4.png" alt="" />
-            <img src="/landing-preview/img/header/14.png" alt="" />
-            <img src="/landing-preview/img/header/9.png" alt="" />
-            <img src="/landing-preview/img/header/10.png" alt="" />
-            <img src="/landing-preview/img/header/11.png" alt="" />
+            <img src="/landing-preview/img/header/9.jpg" alt="" />
+            <img src="/landing-preview/img/header/10.jpg" alt="" />
+            <img src="/landing-preview/img/header/11.jpg" alt="" />
+            <img src="/landing-preview/img/header/5.jpg" alt="" />
+            <img src="/landing-preview/img/header/4.jpg" alt="" />
+            <img src="/landing-preview/img/header/14.jpg" alt="" />
+            <img src="/landing-preview/img/header/9.jpg" alt="" />
+            <img src="/landing-preview/img/header/10.jpg" alt="" />
+            <img src="/landing-preview/img/header/11.jpg" alt="" />
           </div>
         </div>
       </div>
