@@ -1,6 +1,0 @@
-{
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/(portfolio)/japanphotography/page": "app/(portfolio)/japanphotography/page.js",
-  "/(portfolio)/portfolio/page": "app/(portfolio)/portfolio/page.js"
-}
