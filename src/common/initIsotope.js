@@ -1,4 +1,6 @@
 const initIsotope = () => {
+  if (typeof Isotope === 'undefined') return;
+
   let iso;
   let grid = document.querySelectorAll(".gallery");
   let filtersElem = document.querySelector(".filtering");

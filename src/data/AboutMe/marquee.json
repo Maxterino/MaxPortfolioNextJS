@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Branding"
+    "title": "UX/UI Design"
   },
   {
     "id": 2,
-    "title": "Print design"
+    "title": "User Research"
   },
   {
     "id": 3,
-    "title": "Illustration"
+    "title": "Visual Design"
   },
   {
     "id": 4,
-    "title": "Packaging design"
+    "title": "Prototyping"
   },
   {
     "id": 5,
-    "title": "Digital Design"
+    "title": "Front-End Development"
   }
 ]

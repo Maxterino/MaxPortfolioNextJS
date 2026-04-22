@@ -3,13 +3,22 @@ import React, { useEffect } from 'react';
 
 function Footer1({ subBg }) {
   useEffect(() => {
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    () => window.removeEventListener('resize', handleResize);
+    const init = () => {
+      handleResize();
+      window.addEventListener('resize', handleResize);
+    };
+
+    if (typeof gsap !== 'undefined') {
+      init();
+    } else {
+      window.addEventListener('load', init, { once: true });
+    }
+
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   function handleResize() {
-    if (window.innerWidth > 991) {
+    if (window.innerWidth > 991 && typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       gsap.set('.footer-container', { yPercent: -50 })
       const uncover = gsap.timeline({ paused: true })
       uncover.to('.footer-container', { yPercent: 0, ease: 'none' });
@@ -88,7 +97,7 @@ function Footer1({ subBg }) {
             <div className="col-lg-6">
               <div className="copyright d-flex">
                 <div className="ml-auto">
-                  <p className="fz-13">© 2024 | Made with ❤️ by Max van Maasakker</p>
+                  <p className="fz-13">© 2026 | Made with ❤️ by Max van Maasakker</p>
                 </div>
               </div>
             </div>

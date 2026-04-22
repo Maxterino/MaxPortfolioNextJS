@@ -60,7 +60,7 @@ function Menu() {
             <div className="cont-info">
               <div className="item mb-50">
                 <h6 className="text-u fw-600 mb-20">Max van Maasakker</h6>
-                <p className="fw-400 fz-18">Graphic Designer</p>
+                <p className="fw-400 fz-18">UX Designer</p>
               </div>
               <div className="item mb-50">
                 <h6 className="text-u fw-600 mb-20">How to Connect</h6>

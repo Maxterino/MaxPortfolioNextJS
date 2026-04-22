@@ -1,4 +1,4 @@
-import Script from "next/script";
+﻿import Script from "next/script";
 //= Scripts
 import generateStylesheetObject from '@/common/generateStylesheetsObject';
 //= Common Components
@@ -35,7 +35,7 @@ export const metadata = {
 
 export default function Landing() {
   return (
-    <body className="landing">
+    <div className="landing">
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
@@ -60,17 +60,17 @@ export default function Landing() {
         </div>
       </div>
 
-      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/isotope.pkgd.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/wow.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/ScrollSmoother.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/TweenMax.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/charming.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" />
+      <Script src="/assets/js/isotope.pkgd.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/wow.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/gsap.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/ScrollSmoother.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/ScrollTrigger.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/TweenMax.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/charming.min.js" strategy="afterInteractive" />
       <Script src="/assets/js/smoother-script.js" strategy="lazyOnload" />
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
-    </body>
+    </div>
   )
 }

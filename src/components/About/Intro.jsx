@@ -3,18 +3,25 @@ import React, { useEffect } from 'react';
 
 function Intro() {
   useEffect(() => {
-    gsap.to(".text-reval .text", {
-      backgroundPositionX: "0%",
-      stagger: 1,
-      ease: "power1.inOut",
-      scrollTrigger: {
-        trigger: ".text-reval",
-        markers: false,
-        scrub: 1,
-        start: "top center",
-        end: "bottom center"
-      }
-    });
+    const init = () => {
+      gsap.to(".text-reval .text", {
+        backgroundPositionX: "0%",
+        stagger: 1,
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: ".text-reval",
+          markers: false,
+          scrub: 1,
+          start: "top center",
+          end: "bottom center"
+        }
+      });
+    };
+    if (typeof gsap !== 'undefined') {
+      init();
+    } else {
+      window.addEventListener('load', init, { once: true });
+    }
   }, []);
 
   return (

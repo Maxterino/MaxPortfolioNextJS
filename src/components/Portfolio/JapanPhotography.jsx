@@ -92,7 +92,7 @@ function CarouselSlider() {
   return (
     <header className="carousel-slider valign">
       <div className="full-width">
-      <iframe title="Widget Iframe" style={{ width: '100%', height: '695px', overflow: 'auto' }} src="https://widgetviewer.photoconnector.net?widgetId=35476a9f-56bf-450a-947b-24724a61e795&securityId=0e46b161-1045-4e2b-b3bd-ebec4e5ccdc2&locale=nl-NL" frameBorder="0" allowfullscreen></iframe>
+      <iframe title="Widget Iframe" style={{ width: '100%', height: '695px', overflow: 'auto' }} src="https://widgetviewer.photoconnector.net?widgetId=35476a9f-56bf-450a-947b-24724a61e795&securityId=0e46b161-1045-4e2b-b3bd-ebec4e5ccdc2&locale=nl-NL" frameBorder="0" allowFullScreen></iframe>
       </div>
     </header>
   )

@@ -24,11 +24,11 @@ function About() {
           </div>
           <div className="col-lg-7 offset-lg-1">
             <div>
-              <h3 className="text-u text-indent">If you said to me that I will be studying to become a graphic designer 4 years ago, I would call you crazy.</h3>
+              <h3 className="text-u text-indent">I design with both sides of the brain. The creative eye of a graphic designer and the logical thinking of someone who codes their own projects.</h3>
               <div className="text mt-30">
-                <p>I shifted from studying IT management to graphic design after realizing my passion during an IT internship. While working on a group project involving internet routers, I designed a logo for our team, Progress IT. Discovering that designing the logo was the most enjoyable part, I decided to pursue graphic design.</p>
+                <p>After graduating in graphic design and interning in Tokyo, I made a deliberate shift into UX Design at Windesheim University of Applied Sciences. I wanted to go deeper than visuals, understanding why people interact with products the way they do and designing experiences that actually work for them.</p>
                 <div className="text mt-30">
-                  <p>Despite not having a previous inclination towards design and art, my studies in graphic design have heightened my appreciation for it. Now, I am more critical of designs, evaluating everything from soda cans to restaurant websites. My goal is to create designs that evoke the same satisfaction I feel when encountering captivating designs.</p>
+                  <p>I can sketch a concept, prototype it in Figma, and build it in code. That combination is what sets me apart: knowing what's technically possible makes me a better designer, and knowing design makes me a better builder. I'd rather test an idea than guess.</p>
                 </div>
               </div>
             </div>

@@ -1,4 +1,4 @@
-/*Beste project menus:
+﻿/*Beste project menus:
 1. FULLSCREEN INTERACTIVE
 2. CREATIVE SLIDER or CAROSEL SHOWCASE
 3. GRID PORTFOLIO
@@ -36,7 +36,7 @@ export const metadata = {
 
 export default function LandingPreview() {
   return (
-    <body className="main-bg">
+    <div className="main-bg">
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
@@ -53,15 +53,15 @@ export default function LandingPreview() {
         </div>
       </div>
 
-      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/plugins.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/isotope.pkgd.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/wow.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/ScrollSmoother.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/ScrollTrigger.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/plugins.js" strategy="afterInteractive" />
+      <Script src="/assets/js/isotope.pkgd.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/wow.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/gsap.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/ScrollSmoother.min.js" strategy="afterInteractive" />
+      <Script src="/assets/js/ScrollTrigger.min.js" strategy="afterInteractive" />
       <Script src="/assets/js/smoother-script.js" strategy="lazyOnload" />
       <Script src="/assets/js/scripts.js" strategy="lazyOnload" />
-    </body>
+    </div>
   )
 }

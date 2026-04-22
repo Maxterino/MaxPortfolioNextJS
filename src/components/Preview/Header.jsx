@@ -7,7 +7,7 @@ function Header() {
         <div className="text-center">
           <h1>MAX</h1>
           <h1>VAN MAASAKKER</h1>
-          <h5 className="f-ultra-light">GRAPHIC DESIGNER</h5>
+          <h5 className="f-ultra-light">UX DESIGNER</h5>
         </div>
       </div>
       <div className="img-marq">

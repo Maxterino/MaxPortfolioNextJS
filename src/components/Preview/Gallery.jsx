@@ -8,7 +8,11 @@ import data from '@/data/Preview/gallery.json';
 
 function Gallery() {
   useEffect(() => {
-    initIsotope();
+    if (typeof Isotope !== 'undefined') {
+      initIsotope();
+    } else {
+      window.addEventListener('load', initIsotope, { once: true });
+    }
   }, []);
 
   return (

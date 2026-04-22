@@ -3,13 +3,22 @@ import React, { useEffect } from 'react';
 
 function Footer() {
   useEffect(() => {
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    () => window.removeEventListener('resize', handleResize);
+    const init = () => {
+      handleResize();
+      window.addEventListener('resize', handleResize);
+    };
+
+    if (typeof gsap !== 'undefined') {
+      init();
+    } else {
+      window.addEventListener('load', init, { once: true });
+    }
+
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   function handleResize() {
-    if (window.innerWidth > 991) {
+    if (window.innerWidth > 991 && typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       gsap.set('.footer-container', { yPercent: -50 })
       const uncover = gsap.timeline({ paused: true })
       uncover.to('.footer-container', { yPercent: 0, ease: 'none' });

@@ -3,13 +3,20 @@ import React, { useEffect } from 'react';
 
 function Contact() {
   useEffect(() => {
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    () => window.removeEventListener('resize', handleResize);
+    const init = () => {
+      handleResize();
+      window.addEventListener('resize', handleResize);
+    };
+    if (typeof gsap !== 'undefined') {
+      init();
+    } else {
+      window.addEventListener('load', init, { once: true });
+    }
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   function handleResize() {
-    if (window.innerWidth > 991) {
+    if (window.innerWidth > 991 && typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
       gsap.set('.contact-container', { yPercent: -50 })
       const cover = gsap.timeline({ paused: true })
       cover.to('.contact-container', { yPercent: 0, ease: 'none' });

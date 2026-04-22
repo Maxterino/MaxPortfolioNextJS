@@ -2,7 +2,6 @@
 const path = require("path");
 
 const nextConfig = {
-  output: 'export',
   reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
@@ -10,9 +9,6 @@ const nextConfig = {
   trailingSlash: true,
   devIndicators: {
     buildActivity: false,
-  },
-  eslint: {
-    ignoreDuringBuilds: false,
   }
 }
 
