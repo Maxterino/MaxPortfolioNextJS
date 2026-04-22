@@ -1,14 +1,41 @@
 "use client";
 import React, { useEffect } from 'react';
 
+// Module-level flag: true after the first load animation has played.
+// Persists across client-side navigations (module is only evaluated once per session).
+let firstLoadDone = false;
+
 function LoadingScreen() {
 
   useEffect(() => {
+    const loader = document.querySelector('.loader-wrap');
+    if (!loader) return;
+
+    // On subsequent client-side navigations, hide the loader immediately.
+    if (firstLoadDone) {
+      loader.style.display = 'none';
+      return;
+    }
+
+    // Fallback: force-hide the loader after 8 s in case the GSAP animation
+    // fails or gets interrupted (e.g. by ScrollSmoother initialization).
+    const fallback = setTimeout(() => {
+      loader.style.cssText = 'display:none!important';
+    }, 8000);
+
     const interval = setInterval(() => {
       if (typeof gsap !== 'undefined') {
         clearInterval(interval);
+        firstLoadDone = true;
+
         const svg = document.getElementById("svg");
-        const tl = gsap.timeline();
+        const tl = gsap.timeline({
+          onComplete: () => {
+            // Guarantee the loader is hidden even if a tween is skipped.
+            loader.style.cssText = 'display:none!important';
+            clearTimeout(fallback);
+          }
+        });
         const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
         const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
@@ -20,6 +47,11 @@ function LoadingScreen() {
         tl.from("header .container", { y: 40, opacity: 0, delay: 0.3 }, "-=1.5");
       }
     }, 100);
+
+    return () => {
+      clearInterval(interval);
+      clearTimeout(fallback);
+    };
   }, []);
 
   return (

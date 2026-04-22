@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 import {Metadata} from 'next'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import ScrollSmootherInit from "@/components/Common/ScrollSmootherInit";
 
 export const metadata = {
   title: 'MaxPortfolio',
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <ScrollSmootherInit />
         {children}
         <Analytics />
         <SpeedInsights />

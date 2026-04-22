@@ -7,12 +7,13 @@ function Form() {
   const formRef = useRef(null);
 
   async function handleClick() {
+    if (status === 'loading') return;
+
     if (!formRef.current.checkValidity()) {
       formRef.current.reportValidity();
       return;
     }
 
-    console.log('[Contact Form] Button clicked');
     setStatus('loading');
 
     const formData = new FormData(formRef.current);
@@ -21,7 +22,6 @@ function Form() {
       email: formData.get('email'),
       message: formData.get('message'),
     };
-    console.log('[Contact Form] Sending:', data);
 
     try {
       const res = await fetch('/api/contact', {
@@ -29,9 +29,7 @@ function Form() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
-      console.log('[Contact Form] Response status:', res.status);
       const json = await res.json();
-      console.log('[Contact Form] Response body:', json);
 
       if (json.type === 'success') {
         setStatus('success');
@@ -40,7 +38,6 @@ function Form() {
         setStatus('error');
       }
     } catch (err) {
-      console.error('[Contact Form] Fetch error:', err);
       setErrorMsg('Could not reach the server. Please try again later.');
       setStatus('error');
     }
@@ -95,17 +92,19 @@ function Form() {
                       <textarea id="form_message" name="message" placeholder="Message" rows="4" required></textarea>
                     </div>
                     {status === 'error' && (
-                      <p style={{ color: '#f44336', margin: '15px 0' }}>{errorMsg}</p>
+                      <p style={{ color: '#f44336', margin: '15px 0 0' }}>{errorMsg}</p>
                     )}
                     <div className="text-center">
-                      <div className="mt-30 hover-this cursor-pointer">
-                        <button
-                          type="button"
-                          className="hover-anim"
-                          onClick={handleClick}
-                          disabled={status === 'loading'}
-                        >
-                          <span className="text">{status === 'loading' ? 'Sending...' : "Let's Talk"}</span>
+                      {/* onClick on the wrapper because the button has pointer-events:none in style.css */}
+                      <div
+                        className="mt-30 hover-this cursor-pointer"
+                        onClick={handleClick}
+                        style={{ opacity: status === 'loading' ? 0.6 : 1, display: 'inline-block' }}
+                      >
+                        <button type="button" className="hover-anim">
+                          <span className="text">
+                            {status === 'loading' ? 'Sending...' : "Let's Talk"}
+                          </span>
                         </button>
                       </div>
                     </div>

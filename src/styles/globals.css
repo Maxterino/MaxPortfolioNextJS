@@ -29,3 +29,227 @@
     width: 100% !important;
   }
 }
+
+/* ============================================================
+   RESPONSIVE FIXES
+   These override the compiled style.css / preview-style.css
+   which have no mobile breakpoints for several key elements.
+   ============================================================ */
+
+/* Prevent horizontal scrollbar caused by any overflowing element */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* ---- Tablet (≤ 991px) ---- */
+@media (max-width: 991px) {
+
+  /* Landing page header: h1 is 140px with no tablet override in preview-style.css */
+  header .caption h1 {
+    font-size: 80px !important;
+  }
+
+  header .caption {
+    padding-top: 80px !important;
+    padding-bottom: 120px !important;
+  }
+
+  /* Section padding is 120px on all sizes — too much for tablet */
+  .section-padding {
+    padding: 80px 0 !important;
+  }
+
+  /* mb-80 is too large on tablet */
+  .mb-80 {
+    margin-bottom: 50px !important;
+  }
+
+  /* Footer column bottom margin when stacking */
+  footer .col-lg-3,
+  footer .col-lg-6 {
+    margin-bottom: 25px !important;
+  }
+}
+
+/* ---- Mobile (≤ 767px) ---- */
+@media (max-width: 767px) {
+
+  /* Landing page header name — larger and bolder on mobile */
+  header .caption h1 {
+    font-size: 58px !important;
+    letter-spacing: -1px !important;
+  }
+
+  header .caption h5 {
+    font-size: 12px !important;
+    letter-spacing: 3px !important;
+  }
+
+  header .caption {
+    padding-top: 50px !important;
+    padding-bottom: 80px !important;
+  }
+
+  /* Hide the decorative side-scrolling images on mobile — they overflow the viewport */
+  header .img-marq .slide-img-left,
+  header .img-marq .slide-img-right {
+    display: none !important;
+  }
+
+  /* Footer email address overflows at fz-60 (60px → 35px still too wide) */
+  footer .eml h2 {
+    font-size: 18px !important;
+    word-break: break-word !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Footer column bottom spacing when they stack */
+  footer .col-lg-3,
+  footer .col-lg-6 {
+    margin-bottom: 30px !important;
+  }
+
+  /* Footer bottom bar links stack nicer with a bit more space */
+  footer .bord .links li,
+  footer .column li {
+    margin-right: 15px !important;
+  }
+
+  /* Section padding too much on mobile */
+  .section-padding {
+    padding: 60px 0 !important;
+  }
+
+  /* pt-80 / pb-80 halved on mobile */
+  .pt-80 {
+    padding-top: 40px !important;
+  }
+  .pb-80 {
+    padding-bottom: 40px !important;
+  }
+
+  /* mb-80 reduced on mobile */
+  .mb-80 {
+    margin-bottom: 40px !important;
+  }
+
+  /* sec-head title spacing */
+  .sec-head.mb-80 {
+    margin-bottom: 40px !important;
+  }
+
+  /* About Me header crev-header2 text — existing 60px can still be tight */
+  .crev-header2 .text.text-lg,
+  .crev-header2 .text {
+    font-size: 48px !important;
+  }
+
+  /* Revert the ≤992px inline-block layout so words stack in DOM order on mobile.
+     Without this, style.css makes all .row > div inline-block, causing "Visual"
+     to appear between "Passion" and "For" when the line wraps. */
+  .crev-header2 .row > div {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* Restore flex for the row that holds "Passion" + "For" side-by-side */
+  .crev-header2 .text.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Contact page: first section needs extra top padding to clear the fixed navbar (~80px) */
+  .contact.section-padding {
+    padding-top: 100px !important;
+  }
+
+  /* Contact info items need bottom spacing when they stack */
+  .info-contact .item {
+    margin-bottom: 40px !important;
+  }
+
+  /* Contact page header h1 */
+  .contact-header .cont h1 {
+    font-size: 36px !important;
+  }
+
+  /* Project page next/prev title */
+  .next-project .fz-70 {
+    font-size: 30px !important;
+  }
+
+  /* Call-to-action h2 */
+  .call-action h2.fz-70 {
+    font-size: 32px !important;
+  }
+
+  /* Blog/testimonial cards — extra bottom spacing when stacked */
+  .blog-column .item,
+  .testimonials .item {
+    margin-bottom: 30px !important;
+  }
+
+  /* Awards list bottom space */
+  .awards .item {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* ---- Small phones (≤ 480px) ---- */
+@media (max-width: 480px) {
+
+  /* Landing page header on tiny screens */
+  header .caption h1 {
+    font-size: 42px !important;
+    letter-spacing: -1px !important;
+  }
+
+  header .caption h5 {
+    font-size: 11px !important;
+    letter-spacing: 2px !important;
+  }
+
+  header .caption {
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+  }
+
+  /* Footer email on tiny phones */
+  footer .eml h2 {
+    font-size: 15px !important;
+  }
+
+  /* About Me header at 480px */
+  .crev-header2 .text.text-lg,
+  .crev-header2 .text {
+    font-size: 36px !important;
+  }
+
+  /* Keep the block layout override at this breakpoint too */
+  .crev-header2 .row > div {
+    display: block !important;
+    width: 100% !important;
+  }
+  .crev-header2 .text.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  /* Section padding further reduced */
+  .section-padding {
+    padding: 50px 0 !important;
+  }
+
+  /* Contact page: keep extra top padding on tiny screens too */
+  .contact.section-padding {
+    padding-top: 90px !important;
+  }
+
+  /* h3 headings with fz-50 class */
+  h3.fz-50 {
+    font-size: 28px !important;
+  }
+
+}
