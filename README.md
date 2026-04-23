@@ -14,4 +14,3 @@ V1.11 - 22/10/2024 - Photography of Tokyo, Japan updated<br />
 V2.0 - 22/04/2026 - Upgraded NextJS version, Node.js version, bugfixed errors and setup changes from graphic designer to UX designer<br />
 V2.0.1 - 22/04/2026 - Add vercel.json configuration for deployment commands<br />
 V2.1 - 22/04/2026 - Contact form works<br />
-commit test
